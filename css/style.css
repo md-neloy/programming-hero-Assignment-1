@@ -167,6 +167,7 @@ nav > .container > button {
 /* =========== target part start ============== */
 #target .target_parent {
   display: flex;
+  gap: 24px;
   align-items: center;
   justify-content: space-between;
 }
