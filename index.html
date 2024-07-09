@@ -12,7 +12,7 @@
       <nav>
         <div class="container">
           <div class="develpoer_name"><a href="#">Md Neloy</a></div>
-          <button><a href="#">Download Resume</a></button>
+          <button><a href="#" download>Download Resume</a></button>
         </div>
       </nav>
       <section id="banner">
@@ -24,7 +24,7 @@
             have a fashion for exploring technology, which is why I joined CSE.
             In the near future, I want to become a full stack developer.
           </p>
-          <a href="#">Contact with me</a>
+          <a href="#" onclick="gofoot()">Contact with me</a>
         </div>
       </section>
     </header>
@@ -163,9 +163,9 @@
       </section>
       <!-- ===== support part end ======= -->
     </main>
-    <footer>
+    <footer id="footer">
       <div class="container">
-        <small>An Open Commitment by Awlad Hossain</small>
+        <small>Socail media account of Md Mahmudul Hassan</small>
         <ul>
           <li>
             <a
@@ -189,5 +189,12 @@
         </ul>
       </div>
     </footer>
+
+    <script>
+      function gofoot() {
+        const foot = document.getElementById("footer");
+        foot.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
   </body>
 </html>
