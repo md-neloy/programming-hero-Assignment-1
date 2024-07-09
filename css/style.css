@@ -98,6 +98,9 @@ nav > .container > button {
   font-weight: 600;
   color: rgb(255, 255, 255);
 }
+#banner > .container > button:hover {
+  cursor: pointer;
+}
 /* =========== banner part end ============== */
 
 /* =========== development part start ============== */
