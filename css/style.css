@@ -164,6 +164,113 @@ nav > .container > button {
   height: 550px;
 }
 /* =========== inspiration part end ============== */
+/* =========== target part start ============== */
+#target .target_parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#target .target_parent > .target_goal {
+  width: 364px;
+  padding: 40px;
+}
+#target .target_parent > .target_goal > h3 {
+  margin: 24px 0 8px;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+#target .target_parent > .target_goal > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+#target .target_parent > .target_goal > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-line: underline;
+}
+#target .target_parent > .html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+#target .target_parent > .css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+#target .target_parent > .js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+/* =========== target part end ============== */
 
+/* =========== support part start ============== */
+#support {
+  padding: 41px 0 79px;
+}
+#support > .container {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 48px;
+  border-radius: 16px;
+  height: 314px;
+  text-align: center;
+}
+#support > .container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+#support > .container p {
+  width: 606px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px auto 24px;
+}
+#support > .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#support > .container form input[type="text"] {
+  padding: 19px 20px;
+  width: 548px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+}
+#support > .container form input[type="text"]::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+#support > .container form button{
+  padding:17px 20px;
+  color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border:none;
+outline: none;
+margin-left: 16px;
+}
+#support > .container form button:hover{
+  cursor: pointer;
+}
+/* =========== support part end ============== */
 /* =========== nav part start ============== */
 /* =========== nav part end ============== */
